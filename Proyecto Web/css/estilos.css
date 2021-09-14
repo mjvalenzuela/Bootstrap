@@ -1,0 +1,62 @@
+/*.container {
+  border: 1px solid red; }
+
+.row {
+  border: 1px solid blue; }
+
+.row > * {
+  border: 3px solid green; }
+
+.bg-primary{
+	background-color: blue;
+}
+
+
+.servicios>*{
+  	border: 1px solid red;
+  }
+
+ .servicios{
+ 	border: 2px solid green;*/
+ 	/*justify-content: space-around; mas usado para menus*/
+ 	/*height: 100px;
+ 	align-items: center;
+ }*/
+
+/*.servicios{
+  	display: flex;
+  }
+*/
+
+
+/*html{
+	font-size: 14px;
+}*/
+
+p{
+	/*display: inline;*/
+	/*border: 5px solid red;*/
+}
+a{
+	/*display: block;*/
+	/*border: 1px solid red;
+	display:inline-block;
+	width: 100px;
+	height: 50px;*/
+}
+
+/*
+h1{
+	font-size: 2rem;
+	border: .5rem solid blue;
+	padding: .5rem;
+	margin: 3rem;
+}
+@media(min-width: 768px){
+	html{
+		font-size: 14px;
+	}
+}*/
+
+
+/*# sourceMappingURL=estilos.css.map */
