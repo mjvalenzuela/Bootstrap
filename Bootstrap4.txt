@@ -60,6 +60,8 @@ sin prefijos para todos navegadores actualizados
  d-flex --> el contenedor padre se comporta como bloque pero se acomoda al tamaño de los hijos
  d-inline-flex --> hace flexible los elementos en linea
  
+ Prueba edicion
+ 
  
  
 
