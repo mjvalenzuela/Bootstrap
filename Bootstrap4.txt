@@ -1,0 +1,68 @@
+BOOTSTRAP 4
+
+framework de diseño con html, css y js
+
+Soporta flexbox
+
+valor rem: sirve para definir varios tamaños de font teniendo como base el font_size. si el font-size es de 10px se puede configurar las oatras fuentes 1rem, 2rem, 5rem.
+
+Los glyphicons son iconos basados en font. no son buenos en usar porque se debe descargar para usarlos y puede cargar mucho el proyecto
+
+
+Prefijos: se usan para que funcione correctamente en diferentes navegadores.
+-webkit- chrome versiones relativamente recientes
+-moz- mozilla
+-o- opera
+-ms- internet explorer
+sin prefijos para todos navegadores actualizados
+
+12 reglas de sistema de columnas
+1-son 3 elementos que lo conforman: 1 contenedor (en etiqueta div .container), filas (en etiquetas div .row) y columnas (col).
+2-2 tipos de contenedores. .Container y .contanier-fluid
+3-las filas tienen que ser hijos directos de un contenedor
+4-Las columnas tienen que ser hijas directas de las filas
+5-Una fila puede tener maximo 12 columnas
+6-Si se pasan de 12 columnas, se salta a una nueva fila
+7-el contenido debe ir dentro de las columnas
+8-la clase col permite crear columnas de proporciones identicas. (se usa solo col y distribuye los tamaños por igual) Si tienen texto muy largo ajusta automaticamente el tamaño de todas las columnas
+9-se puede modificar la medida de una columna dependiendo del tamaño de pantalla. se manejan 5 contextos. 
+(col- >=0, por defecto
+ col-sm- >=576px, 
+ col-md- >=768px, 
+ col-lg- >=992px, 
+ col-xl- >=1200px
+ 10-Los contextos se heredan de menor a mayor. Si se define solo md los siguientes quedan del mismo tamaño
+ 11-Se pueden crear columnas vacias (offset-#)
+ 12-Se pueden crear columnas anidadas. Se crea una fila dentro de una columna, y se crean las columnas anidadas
+ 13-Se pueden reordenar las columnas (order-first, order-last, order-1) de 0 hasta 12
+ 
+ 
+ ml-auto mr-auto ????
+ d-flex justify-content-center
+ 
+ linea 1046
+ 
+ 
+ https://hackerthemes.com/bootstrap-cheatsheet/
+ https://getbootstrap.com/docs/4.5/utilities/flex/
+ 
+ 
+ 
+ etiqueta p se muestra en bloque, es decir que ocupa todo el espacio y si hay alguna despues, ésta se mostrara debajo de la anterior
+ etiqueta span, a, es inline (no permite usar width ni height) siempre esta una al lado de la otra
+ Al usar Display se puede convertir un elemento tipo block en inline o viceversa
+ Se puede usar inline-block para colocarle width y height a un elemento tipo inline
+ 
+ d-none --> oculta elemento
+ d-block --> convierte un elemento a bloque
+ d-inline --> convierte un elemento a linea
+ d-inline-block --> para poder darle anchura y altura a un elemento inline
+ d-flex --> el contenedor padre se comporta como bloque pero se acomoda al tamaño de los hijos
+ d-inline-flex --> hace flexible los elementos en linea
+ 
+ 
+ 
+
+
+
+
